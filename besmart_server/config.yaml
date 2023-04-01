@@ -1,3 +1,4 @@
+url: https://github.com/sbusceti/ha-besmart-server
 name: "Besmart Server"
 description: "Besmart thermostat server"
 version: "1.0.0"
