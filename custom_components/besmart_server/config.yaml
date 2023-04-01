@@ -1,0 +1,27 @@
+name: "Besmart Server"
+description: "Besmart thermostat server"
+version: "1.0.0"
+slug: "besmart_server"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+ports:
+  6199/udp: 6199
+#  1883/tcp: 1883
+ports_description:
+  6199/udp: "udp server port"
+#  1883/tcp: "port of mqtt broker host"
+options:
+  mqttBrokerHost: ""
+  mqttBrokerPort: 1883
+  mqttUsername: ""
+  mqttPassword: ""
+schema:
+  mqttBrokerHost: str
+  mqttBrokerPort: int
+  mqttUsername: str?
+  mqttPassword: str?

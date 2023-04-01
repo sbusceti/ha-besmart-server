@@ -1,0 +1,11 @@
+{
+  "domain": "besmart",
+  "name": "Besmart server",
+  "version": "1.0.0",
+  "documentation": "https://github.com/sbusceti/ha-besmart-server",
+  "issue_tracker": "https://github.com/sbusceti/ha-besmart-server/issues",
+  "dependencies": [],
+  "after_dependencies": [],
+  "codeowners": ["@sbusceti"],
+  "requirements": []
+}
